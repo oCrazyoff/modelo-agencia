@@ -100,7 +100,7 @@ header .interface{
 /* hero */
 section.hero{
     height: 100vh;
-    background-image: url(../images/fundo-hero.jpg);
+    background-image: url(../images/fundo-hero.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
