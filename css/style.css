@@ -276,7 +276,7 @@ section.hero{
 .sobre h4{
     position: -webkit-sticky;
     position: sticky;
-    top: 3em;
+    top: 6em;
     font-size: 50px;
 }
 .sobre .container-sobre{
