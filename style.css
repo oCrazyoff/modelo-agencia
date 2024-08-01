@@ -109,7 +109,7 @@ header .interface {
 /* hero */
 section.hero {
     height: 100vh;
-    background-image: url(../images/fundo-hero.webp);
+    background-image: url("../images/fundo-hero.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -403,7 +403,7 @@ footer .cop-footer {
 
     /* geral */
     button {
-        height: 2em;
+        height: 2.5em;
     }
 
     h1,
@@ -509,6 +509,7 @@ footer .cop-footer {
         width: 100%;
         margin-top: 5em;
         padding: 5%;
+        text-align: justify;
     }
 
     .hero .txt-hero h1 {
@@ -523,6 +524,16 @@ footer .cop-footer {
     /* vantagens */
     .vantagens .itens-container {
         flex-direction: column;
+    }
+
+    .vantagens .interface{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5em;
+    }
+
+    .vantagens .txt-itens p{
+        text-align: justify;
     }
 
     .vantagens #reverse {
@@ -545,10 +556,11 @@ footer .cop-footer {
 
     .sobre article .txt-sobre {
         width: 100%;
+        text-align: justify;
     }
 
     .sobre article h5 {
-        text-align: left;
+        text-align: center;
     }
 
     /* hospedagem */
@@ -559,6 +571,10 @@ footer .cop-footer {
     /* contato */
     .contato .interface {
         flex-direction: column;
+    }
+
+    .contato .txt-contato p{
+        text-align: justify;
     }
 
     /* footer */
