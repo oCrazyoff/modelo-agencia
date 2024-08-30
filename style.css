@@ -109,7 +109,7 @@ header .interface {
 /* hero */
 section.hero {
     height: 100vh;
-    background-image: url(images/fundo-hero.webp);
+    background-image: url(images/fundo-1000.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -503,6 +503,7 @@ footer .cop-footer {
     /* hero */
     section.hero {
         width: 100%;
+        background-image: url(images/fundo-700.png);
     }
 
     .hero .txt-hero {
