@@ -180,6 +180,13 @@ section.hero {
     font-weight: 300;
 }
 
+.vantagens .img-itens img {
+    height: 250px;
+    width: 400px;
+    border-radius: 1em;
+    box-shadow: rgba(65, 105, 225, 0.4) 15px 15px;
+}
+
 /* contato */
 .contato {
     background-color: white;
@@ -527,18 +534,23 @@ footer .cop-footer {
         flex-direction: column;
     }
 
-    .vantagens .interface{
+    .vantagens .interface {
         display: flex;
         flex-direction: column;
         gap: 2.5em;
     }
 
-    .vantagens .txt-itens p{
+    .vantagens .txt-itens p {
         text-align: justify;
     }
 
     .vantagens #reverse {
         flex-direction: column-reverse;
+    }
+
+    .vantagens .img-itens img{
+        box-shadow: none;
+        width: 100%;
     }
 
     /* sobre */
@@ -574,7 +586,7 @@ footer .cop-footer {
         flex-direction: column;
     }
 
-    .contato .txt-contato p{
+    .contato .txt-contato p {
         text-align: justify;
     }
 
